@@ -9,3 +9,15 @@
     font-weight: 500;
     src: url("./fonts/Rubik-Medium.ttf");
 }
+
+.root {
+    margin: 0 auto;
+    max-width: 1400px;
+    font-family: 'Rubik';
+}
+
+.header {
+    max-width: 1230px;
+    max-height: 100vh;
+    margin: 54px auto 0;
+}
