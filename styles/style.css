@@ -5,7 +5,6 @@
 }
 
 .header {
-    position: relative;
     max-width: 1230px;
     height: 100vh;
     margin: 54px auto 0;
@@ -71,17 +70,21 @@
 }
 
 .header__content {
+    position: relative;
+    display: flex;
+    margin-top: 220px;
+}
+
+.header__content-text {
     display: flex;
     flex-direction: column;
-    row-gap: 23px;
-    margin-top: 220px;
 }
 
 .header__title {
     width: 530px;
     height: 156px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 23px;
     font-size: 66px;
     font-weight: 500;
     line-height: 78px;
@@ -98,6 +101,12 @@
     font-size: 20px;
     line-height: 30px;
     color: #363853;
+}
+
+.header__content-buttons {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
 }
 
 .header__content-button {
@@ -127,10 +136,11 @@
     color:#363853;
 }
 
-.header__main-illustration {
+.header__image-content{
     position: absolute;
-    top: 150px;
-    right: -20px;
+    top: -110px;
+    right: 0;
     width: 689px;
-    height: 681px;
+    height: 682px;
+    background-image: url("../images/scooter-guy.png");
 }
