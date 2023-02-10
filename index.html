@@ -12,8 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>EFood</title>
 </head>
-<body>
-    <div class="root">
+<body class="root">
         <header class="header">
             <nav class="header__menu">
                 <div class="header__nav-title">EFood</div>
@@ -37,7 +36,7 @@
             </nav>
             <div class="header__content">
                 <div class="header__content-text">
-                    <h1 class="header__title">Super Fast <span class="header__title--color--orange">Food Delivery</span> Service</h1>
+                    <h1 class="header__title">Super Fast <span class="header__title--color-orange">Food Delivery</span> Service</h1>
                     <div class="header__text">We provide super fast-delivery service. Let’s use our services right now and get discounts of up to 50%</div>
                     <div class="header__content-buttons">
                         <button class="header__content-button">Explore Food</button>
@@ -47,6 +46,52 @@
                 <div class="header__image-content"></div>   
             </div>
         </header>
-    </div>
+        <main class="main">
+            <section class="categories">
+                <h2 class="category__title">Our Popular<span class="category__title--color-orange"> Category</span></h2>
+                <div class="category__tabs">
+                    <div class="category__tab category__tab--active">
+                        <img 
+                            class="category__tab-image" 
+                            src="./images/burger.svg" 
+                            alt="burger icon"
+                        />
+                        <h3 class="category__tab-name">Burger</h3>
+                    </div>
+                    <div class="category__tab">
+                        <img 
+                            class="category__tab-image" 
+                            src="./images/pizza.svg" 
+                            alt="pizza icon"
+                        />
+                        <h3 class="category__tab-name">Pizza</h3>
+                    </div>
+                    <div class="category__tab">
+                        <img 
+                            class="category__tab-image" 
+                            src="./images/sandwich.svg" 
+                            alt="sandwich icon"
+                        />
+                        <h3 class="category__tab-name">Sandwich</h3>
+                    </div>
+                    <div class="category__tab">
+                        <img 
+                            class="category__tab-image" 
+                            src="./images/asian-food.svg" 
+                            alt="asian food icon"
+                        />
+                        <h3 class="category__tab-name">Asian Food</h3>
+                    </div>
+                    <div class="category__tab">
+                        <img 
+                            class="category__tab-image" 
+                            src="./images/dish.svg" 
+                            alt="set menu icon"
+                        />
+                        <h3 class="category__tab-name">Set menu</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
 </body>
 </html>
